@@ -32,6 +32,11 @@ Nic więcej nie jest potrzebne — żadnych folderów, żadnych plików PDF.
 - **Skala i pomiar** długości, etykiety długości z regulacją wielkości.
 - **Eksport PDF** — osadza stronę źródłową wektorowo (bez utraty jakości), dorysowuje ramkę, kreski, punkty, wymiary, tabelkę i logo; multistrona; wybór jakości eksportu.
 - Tabelka rysunkowa WYSIWYG: legenda, pola Nazwa / Opracował / Projekt / Data, przełącznik ramki.
+- **Edytuj (E)** — przeciąganie końców kresek, szyków i wymiarów (stykające się końce idą razem); klik zaznacza odcinek, Delete usuwa, Esc odznacza.
+- **Przyciąganie** do końców kresek, punktów i boków kresek (trójnik) — różowe kółko pokazuje punkt przyciągania.
+- **Suma długości i lista odcinków** — sumy per typ (z narożnikami), lista ponumerowanych odcinków obok tabelki z kółkami numerów na rysunku (też w PDF); osobny przełącznik „Pokaż listę odcinków”.
+- **Autozapis** w przeglądarce co ~1 s; na ekranie startowym „Przywróć ostatnią sesję”. Ostrzeżenie przy zamykaniu z niezapisanymi zmianami.
+- **Skróty:** L linia, P punkt, S szyk, W wymiar, E edytuj, G gumka, H / Spacja przesuń.
 - Cofnij/Ponów (Ctrl+Z / Ctrl+Shift+Z), Wyczyść, Dopasuj.
 - Języki interfejsu: polski, szwedzki, angielski.
 - Poprawione odbicie tekstu z rysunków CAD (cyfry wymiarowe nie są w lustrzanym odbiciu) i szybkie renderowanie wektorowe (pomijanie „soft-mask”, który zawieszał przeglądarkę).
