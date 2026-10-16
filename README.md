@@ -19,7 +19,10 @@ Nic więcej nie jest potrzebne — żadnych folderów, żadnych plików PDF.
 (Ustawienia Pages są już zrobione: Settings → Pages → Deploy from a branch, `main`, folder `/ (root)`.)
 
 ## Co jest w tej wersji
-**Narzędzia:** Linia, Punkt, Szyk punktów, Wymiar, Gumka, Przytnij (+ Przesuń/panorama, zoom, obrót strony).
+**Narzędzia:** Linia, Punkt, Szyk punktów, Wymiar, Ława, Drabina, Gumka, Przytnij (+ Przesuń/panorama, zoom, obrót strony).
+
+- **Ława (B) / Drabina (D)** — przeciągasz jak linię, blok rysuje się w skali rzeczywistej z kalibracji (ława 350 mm, drabina 400 mm ze szczeblami co 300 mm). Wiele typów w legendzie, liczone w podsumowaniu i w PDF.
+- **Od narożnika (R)** — punkty pomocnicze w zadanej odległości X/Y od narożnika dachu (przyciągają, nie idą do PDF).
 
 - **Szyk punktów** — przeciągasz linię, zostają same punkty w równym rozstawie. Zaznaczenie szyku pozwala zmienić liczbę punktów (−/+ lub wpisanie) albo wpisać rozstaw w jednostce kalibracji; „Rozbij na punkty” zamienia szyk na osobne punkty. Etykieta `n × rozstaw` i automatyczne wymiary rozstawu.
 - **Wymiar** — ręczne wymiarowanie odcinków w jednostce kalibracji (wymaga wcześniejszej skali).
@@ -36,7 +39,7 @@ Nic więcej nie jest potrzebne — żadnych folderów, żadnych plików PDF.
 - **Przyciąganie** do końców kresek, punktów i boków kresek (trójnik) — różowe kółko pokazuje punkt przyciągania.
 - **Suma długości i lista odcinków** — sumy per typ (z narożnikami), lista ponumerowanych odcinków obok tabelki z kółkami numerów na rysunku (też w PDF); osobny przełącznik „Pokaż listę odcinków”.
 - **Autozapis** w przeglądarce co ~1 s; na ekranie startowym „Przywróć ostatnią sesję”. Ostrzeżenie przy zamykaniu z niezapisanymi zmianami.
-- **Skróty:** L linia, P punkt, S szyk, W wymiar, E edytuj, G gumka, H / Spacja przesuń.
+- **Skróty:** L linia, P punkt, S szyk, W wymiar, B ława, D drabina, R od narożnika, E edytuj, G gumka, H / Spacja przesuń.
 - Cofnij/Ponów (Ctrl+Z / Ctrl+Shift+Z), Wyczyść, Dopasuj.
 - Języki interfejsu: polski, szwedzki, angielski.
 - Poprawione odbicie tekstu z rysunków CAD (cyfry wymiarowe nie są w lustrzanym odbiciu) i szybkie renderowanie wektorowe (pomijanie „soft-mask”, który zawieszał przeglądarkę).
